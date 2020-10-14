@@ -1,27 +1,21 @@
-# Pomodoro 番茄鐘
+# Pomodoro Build Setup
+```js
+# install dependencies
+npm install
 
-## 首頁 Home
+# serve with hot reload at localhost:8080
+npm run dev
 
-#### 倒數計時工作時間及休息時間
-#### 下方按鈕由左至右分別為：開始 -> 跳過 -> 重新計時
-!['首頁頁面圖片'](home.png)
+# build for production with minification
+npm run build
 
----
+# build for production and view the bundle analyzer report
+npm run build --report
 
-## 待辦事項清單 List
-#### 輸入待辦事項後按下Enter新增項目
-#### 所有項目皆可修改、刪除
-#### 待辦事項可以上下拖曳
-!['待辦事項清單頁面圖片'](list.png)
+# run unit tests
+npm run unit
 
----
-
-## 設定 Setting
-#### 左至右分別為時間設定、主題選擇及鈴聲選擇
-!['設定頁面圖片'](setting.png)
-
----
-
-## Demo
-https://laura-chou.github.io/Pomodoro/
+# run all tests
+npm test
+```
 
