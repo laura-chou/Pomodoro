@@ -1,0 +1,46 @@
+#list
+  height 100%
+  font-size 20px
+  .title
+    height 13%
+    display flex
+    align-items center
+    justify-content center
+    svg
+      font-size 40px
+      color #3A006F
+  .input-group
+    padding 0 20px
+    input
+      &:focus
+        box-shadow none
+  .input-group-append 
+    button
+      border-left none
+      outline none
+      &:active
+        box-shadow: inset 0 0 1px #000
+  .data-table
+    height 82%
+    overflow auto
+    background rgba(248,248,255,0.5)
+    margin 0 20px
+    .btn
+      box-shadow none
+      &:active
+        box-shadow none
+  .handle
+    cursor grab
+  .table th
+    &:nth-child(1)
+      width 10%
+    &:nth-child(2)
+      width 65%
+    &:nth-child(3)
+      width 25%
+  .table td
+    border-top 2px solid #808080
+  .table-floral-white
+    background-color #FFFAF0
+  .table-honeydew
+    background-color #FFFFCD

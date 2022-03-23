@@ -1,0 +1,104 @@
+// App.vue
+html,body
+  height 100%
+.swal2-shown 
+  .swal2-height-auto
+    height inherit !important
+#app
+  height 100%
+  .bm-item-list
+    margin 0 10%
+    a
+      color #fff
+      text-decoration none
+      &:hover
+        background #5B5B5B
+main
+  height 100%
+  text-align center
+  background #b4bad2
+  overflow hidden
+.bm-burger-button
+  z-index 99
+// Home.vue
+#home
+  height 100%
+  .title
+    height 15%
+    display flex
+    align-items center
+    justify-content center
+    svg
+      font-size 40px
+      color #3A006F
+  h1
+    font-weight bolder
+  .theme
+    height 85%
+    position relative
+    z-index 95
+    #particles
+      width 100%
+      height 80%
+      position absolute
+      top 0
+  .content
+    width 100%
+    height 80%
+    position absolute
+    top 0
+    z-index 98
+    display flex
+    flex-direction column
+    justify-content center
+    align-items center
+    div
+      &:nth-child(1)
+      &:nth-child(2)
+        margin-bottom: 50px
+  .btn
+    box-shadow 0px 1px 2px #000
+  .btn-red
+    color #fff
+    background-color #e53238
+    border-color #e53238
+  .btn-orange
+    color #fff
+    background-color #f7931e
+    border-color #f7931e
+  .btn-blue
+    color #fff
+    background-color #0064d2
+    border-color #0064d2
+  .btn-summer1
+    color #272727
+    background-color#FFAAD5
+    border-color #FFAAD5
+  .btn-summer2
+    color #272727
+    background-color #FFFF93
+    border-color #FFFF93
+  .btn-summer3
+    color #272727
+    background-color #DCB5FF
+    border-color #DCB5FF
+  .btn-summer4
+    color #272727
+    background-color #D3FF93
+    border-color #D3FF93
+  .btn-autumn1
+    color #fff
+    background-color #CE0000
+    border-color #CE0000
+  .btn-autumn2
+    color #fff
+    background-color #005AB5
+    border-color #005AB5
+  .btn-autumn3
+    color #fff
+    background-color #009100
+    border-color #009100
+  .btn-autumn4
+    color #fff
+    background-color #6F00D2
+    border-color #6F00D2

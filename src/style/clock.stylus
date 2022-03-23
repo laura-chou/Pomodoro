@@ -1,0 +1,14 @@
+#clock
+  height 80vh
+  font-size 20px
+  .data-table
+    height 100%
+    background rgba(248,248,255,0.5)
+    table
+      tr
+        td
+          vertical-align: middle !important
+          border-top 1px solid #ADADAD
+          padding 5% 2%
+          &:nth-child(1)
+            width 35%

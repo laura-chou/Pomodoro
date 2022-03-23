@@ -1,0 +1,22 @@
+#alarm
+  height 77vh
+  overflow scroll
+  table
+    tbody
+      background rgba(248,248,255,0.5)
+    tr
+      th
+        background-color #FFFFCD
+        &:nth-child(1),
+        &:nth-child(2)
+          width 20%
+        &:nth-child(3)
+          width 60%
+      td
+        vertical-align: middle !important
+        border-top 1px solid #ADADAD
+  audio
+    outline none
+    width 80%
+  .table-honeydew
+    background-color #FFFFCD

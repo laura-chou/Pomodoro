@@ -1,0 +1,28 @@
+#summer
+  height 100%
+  position relative
+  .top
+    height 70%
+    .sun
+      position absolute
+      left 10%
+      border-radius 50%
+      height 150px
+      width 150px
+      background #EAC100
+      box-shadow: 0 0 3px orange,
+                0 0 60px #F9F900,
+                0 0 200px yellow,
+                inset 0 0 80px yellow
+  .bottom
+    width: 100%
+    height 35%
+    position relative
+    background-image linear-gradient(180deg, #E3A43B 0%, #CD853F 100%)
+    .leafs
+      height 60%
+      display flex
+      justify-content space-around
+      img
+        width 50%
+        height 100%

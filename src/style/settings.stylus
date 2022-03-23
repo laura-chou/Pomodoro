@@ -1,0 +1,22 @@
+#setting
+  height: 100%;
+  font-size: 20px;
+  .title
+    height 13%
+    display flex
+    align-items center
+    justify-content center
+    svg
+      font-size 40px
+      color #3A006F
+  .tabs
+    padding 0 20px
+    .nav
+      background rgba(205 ,201, 201,0.6)
+    li
+      h3
+        font-weight bold
+        color #28004D
+      img
+        width 40px
+        margin-bottom 2%
