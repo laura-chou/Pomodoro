@@ -21,7 +21,7 @@ const config = {
         nb_sides: 3
       },
       image: {
-        src: 'https://image.winudf.com/v2/image1/Y29tLm1hcGxlLmlucHV0bWV0aG9kLmxhdGluX2ljb25fMTU0MTc4MjkzNl8wNjM/icon.png?fakeurl=1&h=240&type=webp',
+        src: 'https://github.com/laura-chou/Pomodoro/blob/master/public/img/maple.png?raw=true',
         width: 100,
         height: 100
       }
