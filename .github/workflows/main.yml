@@ -5,6 +5,10 @@ on:
   push:
     branches: [ master ]
 
+env:
+  VUE_APP_TIMELEFT: ${{ secrets.VUE_APP_TIMELEFT }}
+  VUE_APP_TIMELEFT_BREAK: ${{ VUE_APP_TIMELEFT_BREAK }}
+
 jobs:
 
   deploy:
