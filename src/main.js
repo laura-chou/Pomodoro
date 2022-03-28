@@ -36,6 +36,7 @@ import Winter from './components/Winter.vue'
 import VueAnalytics from 'vue-analytics'
 import VueSweetalert2 from 'vue-sweetalert2'
 import XParticles from 'x-particles'
+
 library.add(faEdit, faTrashAlt, faUndoAlt, faSave, faClock, faCog, faEraser, faPlus, faMinus, faListAlt, faPlay, faStop, faReply, faStepForward, faBars, faFlagCheckered)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.component('PushRotate', PushRotate)
