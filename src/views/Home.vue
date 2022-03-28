@@ -70,7 +70,16 @@ export default {
   },
   computed: {
     currentText () {
-      return this.current.length > 0 ? this.current : this.todos.length > 0 ? this.todos[0].name : '沒有資料'
+      let text = ''
+      if (this.todos.length === 0) {
+        text = '沒有資料'
+      } else {
+        text = this.todos[0].name
+      }
+      if (this.$store.getters.isBreak) {
+        text = '休息時間'
+      }
+      return text
     },
     timetext () {
       const m = Math.floor(this.timeleft / 60)
@@ -86,9 +95,6 @@ export default {
     },
     timeleft () {
       return this.$store.getters.timeleft
-    },
-    current () {
-      return this.$store.getters.current
     },
     todos () {
       return this.$store.getters.todos
@@ -144,7 +150,6 @@ export default {
         // 開始新倒數
         if (this.todos.length > 0) {
           if (!this.$store.getters.isBreak) {
-            this.$store.commit('start')
             this.situation = 1
             this.timer = setInterval(() => {
               this.$store.commit('countdown')
@@ -186,7 +191,6 @@ export default {
               confirmButtonText: '確定'
             }
           ).then((result) => {
-            this.$store.commit('start')
             this.situation = 1
             this.timer = setInterval(() => {
               this.$store.commit('countdown')
@@ -207,7 +211,6 @@ export default {
               confirmButtonText: '確定'
             }
           ).then((result) => {
-            this.$store.commit('start')
             this.situation = 1
             this.timer = setInterval(() => {
               this.$store.commit('countdown')

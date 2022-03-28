@@ -18,8 +18,6 @@ export default new Vuex.Store({
     timeleftBreak: timeleftBreak,
     // 鈴聲
     alarm: 'Bell.mp3',
-    // 目前進行的事項
-    current: '',
     // 是否休息中
     isBreak: false,
     // 目前頁面
@@ -39,9 +37,6 @@ export default new Vuex.Store({
     },
     tiembreak (state) {
       return state.timeleftBreak
-    },
-    current (state) {
-      return state.current
     },
     isBreak (state) {
       return state.isBreak
@@ -79,18 +74,6 @@ export default new Vuex.Store({
     },
     clearTodo (state, data) {
       state.todos[data].model = ''
-    },
-    start (state) {
-      if (state.isBreak) {
-        state.current = '休息時間'
-      } else {
-        if (state.todos.length > 0) {
-          state.current = state.todos[0].name
-          // state.todos.splice(0, 1)
-        } else {
-          state.current = '沒有資料'
-        }
-      }
     },
     countdown (state) {
       state.timeleft--
