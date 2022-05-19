@@ -7,9 +7,9 @@ module.exports = {
       name: '番茄鐘',
       short_name: '番茄鐘',
       // APP 主題顏色
-      theme_color: '#4DBA87',
+      theme_color: '#D2E9FF',
       // APP 啟動畫面背景色
-      background_color: '#4DBA87',
+      background_color: '#D2E9FF',
       // APP 顯示範圍
       scope: './',
       // APP 開始畫面網址
