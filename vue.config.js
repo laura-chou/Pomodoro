@@ -9,7 +9,7 @@ module.exports = {
       // APP 主題顏色
       theme_color: '#4DBA87',
       // APP 啟動畫面背景色
-      background_color: '#000',
+      background_color: '#4DBA87',
       // APP 顯示範圍
       scope: './',
       // APP 開始畫面網址
@@ -19,7 +19,7 @@ module.exports = {
       // fullscreen: 全螢幕，隱藏所有瀏覽器 UI
       // standard: 隱藏標準瀏覽器 UI ，如 URL 欄
       // minimal-ui: 有最小導覽列 UI，Chrome不支援
-      display: 'standalone',
+      display: 'fullscreen',
       icons: [
         {
           src: './img/icons/android-chrome-192x192.png',
