@@ -52,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "alarms/Wolf.mp3"
   },
   {
-    "revision": "4e9e31f145a99d83dc4c",
+    "revision": "ccfdf733e5dd2f6b86d3",
     "url": "css/app.9e746ed3.css"
   },
   {
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/chunk-vendors.04660968.css"
   },
   {
-    "revision": "12dc62ec682a8037d273",
+    "revision": "82c48d6b188300938058",
     "url": "css/notfound.853012f3.css"
   },
   {
@@ -108,31 +108,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/rabbit.png"
   },
   {
-    "revision": "95fdcf2eae4a268beab26db317da99e0",
+    "revision": "7d1517b33e8fea07829250513ef96012",
     "url": "index.html"
   },
   {
-    "revision": "4e9e31f145a99d83dc4c",
-    "url": "js/app.e0223716.js"
+    "revision": "ccfdf733e5dd2f6b86d3",
+    "url": "js/app.7bfc7d4d.js"
   },
   {
     "revision": "d485124063a7f50dee2c",
     "url": "js/chunk-vendors.90cbc21a.js"
   },
   {
-    "revision": "ae2135970442cebab840",
-    "url": "js/list.ed778ab6.js"
+    "revision": "05eb321b8ba2c02bf7ad",
+    "url": "js/list.5834dafc.js"
   },
   {
-    "revision": "12dc62ec682a8037d273",
-    "url": "js/notfound.a478b572.js"
+    "revision": "82c48d6b188300938058",
+    "url": "js/notfound.23aea980.js"
   },
   {
-    "revision": "88340d743d067af5e7d5",
-    "url": "js/settings.37bef682.js"
+    "revision": "e6af715c16deae8d221a",
+    "url": "js/settings.5b547ad1.js"
   },
   {
-    "revision": "3dc210960fe7e4127773465ac5d8a550",
+    "revision": "742cd1885e8d22ecb7688c226b4e793f",
     "url": "manifest.json"
   },
   {
